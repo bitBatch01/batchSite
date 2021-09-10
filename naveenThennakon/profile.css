@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box {
+    width: 450px;
+    background: rgb(247, 243, 243);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 100px;
+}
+
+.box-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.box h2 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: rgb(10, 10, 109);
+    border-radius: 5px;
+    background-color: rgb(217, 224, 203);
+}
+
+.box span {
+    font-weight: 800;
+}
+
+.box p {
+    text-align: justify;
+    color: black;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.box li {
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+
+.box li a {
+    color: rgb(223, 206, 206);
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
+
+.box li a:hover {
+    color: blue;
+}
